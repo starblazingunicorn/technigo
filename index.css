@@ -1,0 +1,40 @@
+.content {
+  display: flex;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px;
+  border-radius: 20px;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 550px;
+}
+.content-text {
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  min-width: 100px;
+  height: 200px;
+}
+button {
+  background-color: tomato;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  max-width: 480px;
+  min-height: 40px;
+  vertical-align: middle;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
